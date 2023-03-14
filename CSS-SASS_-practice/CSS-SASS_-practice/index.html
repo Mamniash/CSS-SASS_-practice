@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header class="header">
+					<div class="content">
+						<div class="header__subject">Let's get you registered</div>
+						<div class="header__comment">Please enter your correct details</div>
+					</div>
+				</header>
+				<form action="#" method="post" enctype="multipart/form-data"></form>
+				<div class="forms">
+					<div class="content">
+						<div class="forms__item form">
+							<div class="form__subject">Name</div>
+							<div class="form__input">
+								<input type="text" name="username" value="John Doe">
+							</div>
+						</div>
+						<div class="forms__item form">
+							<div class="form__subject">Email</div>
+							<div class="form__input">
+								<input type="text" name="useremail" value="Johndoe@gmail.com">
+							</div>
+						</div>
+						<div class="forms__item form">
+							<div class="form__subject">Password</div>
+							<div class="form__input">
+								<input type="password" name="userpass" value="Password">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="radio">
+					<div class="content">
+						<div class="radio__subject">Select a service</div>
+						<div class="radio__body">
+							<p><input type="radio" name="service"> Free </p>
+							<p><input checked type="radio" name="service"> Solo </p>
+							<p><input type="radio" name="service"> Team </p>
+						</div>
+					</div>
+				</div>
+				<div class="location">
+					<div class="content">
+						<div class="location__subject">Location(s)</div>
+						<div class="location__input">
+							<select name="location">
+								<option value="lahore">Lahore</option>
+								<option value="tokyo">Tokyo</option>
+								<option value="moscow">Moscow</option>
+								<option value="madrid">Madrid</option>
+								<option value="denia">Denia</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="agree">
+					<div class="content">
+						<input checked type="checkbox" name="iagree" value="yes"><span>I agree to Teams & Conditions</span>
+					</div>
+				</div>		
+				<footer class="continue">
+					<div class="continue__body">
+						<button type="submit">Continue</button>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
